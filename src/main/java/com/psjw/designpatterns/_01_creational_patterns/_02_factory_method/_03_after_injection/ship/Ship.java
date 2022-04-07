@@ -1,16 +1,5 @@
 package com.psjw.designpatterns._01_creational_patterns._02_factory_method._03_after_injection.ship;
 
-/**
- * packageName : com.psjw.designpatterns.factorymethod.before_01
- * fileName : Ship
- * author : psjw
- * date : 2021-12-07
- * description :
- * ===========================================================
- * DATE              AUTHOR          NOTE
- * -----------------------------------------------------------
- * 2021-12-07        psjw         최초 생성
- */
 //Ship이 바뀌면 OCP 위배 
 //구체적인 클래스 -> 만들어 클래스의 특성이 있으면 바뀌어야함-> 기존 코드 변경-> 변경에 닫혀있지 않음
 public class Ship {

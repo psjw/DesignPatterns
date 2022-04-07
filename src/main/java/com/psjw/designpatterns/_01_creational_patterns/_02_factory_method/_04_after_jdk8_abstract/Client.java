@@ -1,5 +1,6 @@
 package com.psjw.designpatterns._01_creational_patterns._02_factory_method._04_after_jdk8_abstract;
 
+import com.psjw.designpatterns._01_creational_patterns._02_factory_method._04_after_jdk8_abstract.ship.BlackshipFactory;
 import com.psjw.designpatterns._01_creational_patterns._02_factory_method._04_after_jdk8_abstract.ship.WhiteshipFactory;
 
 /**

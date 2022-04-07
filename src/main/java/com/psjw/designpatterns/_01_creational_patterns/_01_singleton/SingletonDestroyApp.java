@@ -10,17 +10,6 @@ import java.io.ObjectOutputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-/**
- * packageName : com.psjw.designpatterns.singleton
- * fileName : SingletonDestroyApp
- * author : psjw
- * date : 2021-11-30
- * description :
- * ===========================================================
- * DATE              AUTHOR          NOTE
- * -----------------------------------------------------------
- * 2021-11-30        psjw         최초 생성
- */
 public class SingletonDestroyApp {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, IOException, ClassNotFoundException {
         Settings6 settings1 = Settings6.getInstance();

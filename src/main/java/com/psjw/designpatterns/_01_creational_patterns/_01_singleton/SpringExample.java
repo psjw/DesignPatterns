@@ -3,17 +3,6 @@ package com.psjw.designpatterns._01_creational_patterns._01_singleton;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-/**
- * packageName : com.psjw.designpatterns.singleton
- * fileName : SpringExample
- * author : psjw
- * date : 2021-11-30
- * description :
- * ===========================================================
- * DATE              AUTHOR          NOTE
- * -----------------------------------------------------------
- * 2021-11-30        psjw         최초 생성
- */
 public class SpringExample {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);

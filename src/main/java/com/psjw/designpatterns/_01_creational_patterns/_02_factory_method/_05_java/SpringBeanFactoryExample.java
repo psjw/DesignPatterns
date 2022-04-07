@@ -4,17 +4,6 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- * packageName : com.psjw.designpatterns.factorymethod._05_java
- * fileName : SpringBeanFactoryExample
- * author : psjw
- * date : 2021-12-08
- * description :
- * ===========================================================
- * DATE              AUTHOR          NOTE
- * -----------------------------------------------------------
- * 2021-12-08        psjw         최초 생성
- */
 public class SpringBeanFactoryExample {
     public static void main(String[] args) {
         //Spring에서 제공하는 BeanFactory 구현체(디자인패턴 구현)
