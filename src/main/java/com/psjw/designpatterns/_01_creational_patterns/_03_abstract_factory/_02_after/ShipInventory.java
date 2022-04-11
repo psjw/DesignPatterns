@@ -16,7 +16,6 @@ import com.psjw.designpatterns._01_creational_patterns._03_abstract_factory._02_
 public class ShipInventory {
     public static void main(String[] args) {
         //어떤 제품군을 넣어주느냐에 따라 달라짐
-
         ShipFactory shipFactory = new WhiteshipFactory(new WhitePartsProFactory());
         Ship ship = shipFactory.createShip();
         System.out.println(ship.getAnchor().getClass());

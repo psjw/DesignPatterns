@@ -16,7 +16,7 @@ import org.springframework.beans.factory.FactoryBean;
  * 2021-12-08        psjw         최초 생성
  */
 
-//BEAN을 만들때 만드는 과정이 단순하게 NEW가 아닌 복잡한과정을 거치는 경우에 사용
+//BEAN을 만들때 만드는 과정이 단순하게 NEW가 아닌 만드는 과정이 복잡한과정을 거치는 경우에 사용
 public class ShipFactory implements FactoryBean<Ship> {
     @Override
     public Ship getObject() throws Exception {

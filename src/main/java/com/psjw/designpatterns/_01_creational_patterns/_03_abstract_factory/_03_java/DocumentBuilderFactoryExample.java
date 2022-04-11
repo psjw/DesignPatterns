@@ -24,7 +24,7 @@ public class DocumentBuilderFactoryExample {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
         // HTML,XML 형식의문서를 자바의 OBJECT형태로 파싱해서 볼수있음
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = factory.newDocumentBuilder();
+        DocumentBuilder builder = factory.newDocumentBuilder();//추상팩토리 패턴 추상 클래스 DocumentBuilder를 반환
         Document document = builder.parse(new File("src/main/resources/config.xml"));
         System.out.println(document.getDocumentElement());
     }
