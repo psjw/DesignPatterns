@@ -1,4 +1,4 @@
-package _00_SOLID._1_srp._1_after;
+package _00_SOLID._1_srp.ex1._1_before;
 
 class User {
     private String name;

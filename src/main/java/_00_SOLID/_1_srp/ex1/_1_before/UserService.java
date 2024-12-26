@@ -1,4 +1,4 @@
-package _00_SOLID._1_srp._0_before;
+package _00_SOLID._1_srp.ex1._1_before;
 
 class UserService {
     //하나의 클래스에 여러가지의 책임을 갖는다.
