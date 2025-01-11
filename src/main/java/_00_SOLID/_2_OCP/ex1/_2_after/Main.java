@@ -1,5 +1,6 @@
 package _00_SOLID._2_OCP.ex1._2_after;
 
+
 public class Main {
     public static void main(String[] args) {
         Report pdfReport = new PDFReport();
